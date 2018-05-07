@@ -14,7 +14,7 @@ import RunPage from 'components/route-page/run-page.jsx'
 import ConfirmMessage from 'components/route-page/confirm-message.jsx'
 import { updateUserPos } from 'states/actions/user.js'
 import { updateMissionRouteInfo, startMission } from 'states/actions/missions.js'
-import Swiper from 'swiper'
+import Swiper from 'swiper/dist/js/swiper.js'
 import {BrowserRouter as Router, Route,Link} from 'react-router-dom'
 
 //import ReactDom from 'react-dom'
@@ -178,7 +178,7 @@ const PreviewPage = (props) => {
 				missionNum={props.missionNum}
 				/>
 			<ConfirmMessage 
-				msg={'確定執行此任務'}
+				msg={'確定執行此任務?'}
 				type={0}
 			/>
 		</div>

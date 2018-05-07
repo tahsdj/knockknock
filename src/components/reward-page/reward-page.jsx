@@ -1,7 +1,7 @@
 import React from 'react'
 import './reward-page.sass'
 import {connect} from 'react-redux'
-import Swiper from 'swiper'
+import Swiper from 'swiper/dist/js/swiper.js'
 import {BrowserRouter as Router, Route,Link} from 'react-router-dom'
 import ConfirmMessage from 'components/route-page/confirm-message.jsx'
 

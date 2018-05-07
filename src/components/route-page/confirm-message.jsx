@@ -5,6 +5,16 @@ import { startMission } from 'states/actions/missions.js'
 
 
 const ConfirmMessage = (props) => {
+	let messageInfo = null
+	switch (props.type) {
+		case 1:
+			messageInfo = (<img 
+				 				src="/icons/icon-tired.png" 
+				 				className="message-icon"
+				 			/>)
+		default:
+			messageInfo = null 
+	}
 	return (
 		<div 
 			className="confirm-container"
